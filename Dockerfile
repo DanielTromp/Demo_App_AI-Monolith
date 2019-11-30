@@ -17,8 +17,9 @@ RUN apt-get update  --fix-missing \
 
 RUN pip3 install gunicorn==19.7.1 sklearn Keras==2.2.4 matplotlib tensorflow==1.13.1
 
-WORKDIR /app/
-ADD app .
+RUN git clone https://github.com/DanielTromp/Demo_App_AI-Monolith.git
+
+WORKDIR /Demo_App_AI-Monolith/app/
 RUN wget -q https://www.dropbox.com/s/3pz96kng6hcupf5/age_model_weights.h5 -P models/
 RUN wget -q https://www.dropbox.com/s/laum0pct5exj73r/gender_model_weights.h5 -P models/
 
