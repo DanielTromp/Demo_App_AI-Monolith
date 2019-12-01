@@ -15,7 +15,7 @@ RUN apt-get update  --fix-missing \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install gunicorn==19.7.1 sklearn Keras==2.2.4 matplotlib tensorflow==1.13.1
+RUN pip3 install flask gunicorn==19.7.1 sklearn Keras==2.2.4 matplotlib tensorflow==1.13.1
 
 RUN git clone https://github.com/DanielTromp/Demo_App_AI-Monolith.git
 
