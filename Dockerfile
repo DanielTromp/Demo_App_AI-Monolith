@@ -29,6 +29,11 @@ EXPOSE 5555
 
 CMD ["gunicorn", "--bind=0.0.0.0:5555", "app"]
 
+# Build from gitgub:
 # docker build --tag app-mono .
+
+# Run app:
+# docker run -p 5555:5555 danieltromp/app-mono:latest
+
+# Deploy Docker app to Swarm/Kubernetes:
 # docker stack deploy --compose-file docker-compose.yml app-mono
-# docker run --detach -p 5555:5555 danieltromp/app-mono
