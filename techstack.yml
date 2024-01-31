@@ -1,0 +1,68 @@
+repo_name: DanielTromp/Demo_App_AI-Monolith
+report_id: a577e15339cbb325173f8f44c14a4fc1
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:48:17+00:00'
+requested_by: DanielTromp
+provider: github
+branch: master
+detected_tools_count: 5
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/DanielTromp/Demo_App_AI-Monolith
+  detection_source: Repo Metadata
+- name: Mono
+  description: 'Open source implementation of Microsoft''s .NET Framework '
+  website_url: http://www.mono-project.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2372/preview.png
+  detection_source_url: https://github.com/DanielTromp/Demo_App_AI-Monolith/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Daniel Tromp
+  last_updated_on: 2019-11-30 22:58:36.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/DanielTromp/Demo_App_AI-Monolith
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/DanielTromp/Demo_App_AI-Monolith
+  detection_source: Repo Metadata
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/DanielTromp/Demo_App_AI-Monolith/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: Daniel Tromp
+  last_updated_on: 2019-12-01 10:59:39.000000000 Z
